@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="500" viewBox="0 0 300 500">
+
+    <!-- Square Path -->
+    <path id="square-path" d="M 15 50 L 215 50 L 215 250 L 15 250 Z" fill="transparent" stroke="black"/>
+
+    <!-- Hot Pink Circle (travelling the square) -->
+    <circle cx="0" cy="0" r="10" fill="hotpink">
+        <!-- Animation for the circle to follow the square path -->
+        <animateMotion repeatCount="indefinite" dur="5s">
+            <mpath href="#square-path" />
+        </animateMotion>
+    </circle>
+
+    <!-- Heart-Shaped Path for funzies <3 -->
+    <path id="heart-path" d="M150 400 
+    C100 300, 0 300, 150 450
+    C300 300, 200 300, 150 400" fill="transparent" stroke="red"/>
+
+    <!-- Light Pink Circle (travelling the heart) -->
+    <circle cx="0" cy="0" r="8" fill="lightpink">
+        <!-- Animation for the circle to follow the heart-shaped path -->
+        <animateMotion repeatCount="indefinite" dur="7s">
+            <mpath href="#heart-path" />
+        </animateMotion>
+    </circle>
+
+</svg>

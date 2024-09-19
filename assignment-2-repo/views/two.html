@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="../resources/favicon.svg" type="image/svg+xml">
+
+    <!-- Linking CSS file -->
+    <link rel="stylesheet" href="../style.css">
+
+    <title> Favorite Coding Resources </title>
+    <link rel="icon" href="resources/favicon.svg" type="image/svg+xml">
+
+    <!-- Importing the Fascinate Inline font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+
+    <!-- Importing the Cute Font font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet">
+
+    <!-- Importing the Comic Neue font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400&display=swap" rel="stylesheet">
+
+    <!-- Importing the Ultra font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+
+    <!-- Importing the Inria Sans font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Wrapper for SVG and Navigation Menu -->
+    <div class="svg-nav-container">
+        <svg width="100%" height="300px" viewBox="0 0 500 350">
+            <!-- Center Square -->
+            <rect x="150" y="100" width="150" height="150" fill="hotpink" />
+            
+            <!-- Inner Circle (Inside the Square) -->
+            <circle cx="225" cy="175" r="60" fill="lightpink" />
+
+            <!-- Text in the middle of svg logo with Fascinate Inline font and dark pink color -->
+            <text x="225" y="180" font-family="'Fascinate Inline', cursive" font-size="20" text-anchor="middle" fill="#8B004F">
+                i <3 coding
+            </text>
+
+            <!-- Top Triangle -->
+            <polygon points="225,50 250,100 200,100" fill="deeppink" />
+            
+            <!-- Bottom Triangle -->
+            <polygon points="225,300 250,250 200,250" fill="deeppink" />
+            
+            <!-- Left Triangle -->
+            <polygon points="100,175 150,150 150,200" fill="deeppink" />
+            
+            <!-- Right Triangle (fixed) -->
+            <polygon points="350,175 300,150 300,200" fill="deeppink" />
+        </svg>
+
+        <!-- Navigation Menu -->
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./views/two.html">Page Two</a></li>
+                <li><a href="./views/three.html">Page Three</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Content -->
+    <h1 style="font-family: 'Cute Font', cursive; font-size: 36px; font-weight: 700; color: #800040;">
+        Favorite Coding Resources:
+    </h1>
+    
+    <!-- Table with coding resources -->
+    <table border="1" style="width: 60%; margin: 20px auto; text-align: left; font-family: 'Comic Neue', cursive;">
+        <caption style="font-family: 'Comic Neue', cursive; font-size: 18px; color: #006400;">
+            My Personal Top 3 Coding Resources <br><br>
+        </caption>
+                <thead>
+            <tr>
+                <th>Resource Name</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style= "font-family: 'Inria Sans', sans-serif;"> Mozilla Developer Network</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web" target="_blank">MDN Web Docs</a></td>
+            </tr>
+            <tr>
+                <td style= "font-family: 'Inria Sans', sans-serif;"> W3Schools</td>
+                <td><a href="https://www.w3schools.com/html/html_css.asp" target="_blank">W3Schools - HTML/CSS</a></td>
+            </tr>
+            <tr>
+                <td style= "font-family: 'Inria Sans', sans-serif;"> The Odin Project</td>
+                <td><a href="https://www.theodinproject.com/lessons/foundations-introduction-to-html-and-css" target="_blank">The Odin Project - HTML/CSS</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
